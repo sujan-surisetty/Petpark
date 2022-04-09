@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="images/paws.ico" />
+    <meta charset="utf-8" />
+    <script
+      src="https://kit.fontawesome.com/4e2c008190.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>PetPark</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!--BODY STARTS HERE -->
+  <body>
+    <section id="title">
+      <!-- Nav Bar -->
+      <div class="container-fluid" style="padding: 2% 20%">
+        <nav
+          class="navbar navbar-expand-lg navbar-light"
+          style="background-color: rgb(226, 178, 240)"
+        >
+          <a class="navbar-brand" style="font-size: 40px" href=""
+            ><i class="fas fa-paw"></i> PetPark</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item" style="font-size: 20px; margin: 7px">
+                <a href="#footer" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item" style="font-size: 20px; margin: 7px">
+                <a href="#pricing" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item" style="font-size: 20px; margin: 7px">
+                <a href="#footer" class="nav-link">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row" style="padding-top: 2%">
+          <div class="col-lg-6 col-md-6 col-sm-12" style="padding: 10%">
+            <h1>
+              Meet new and <br />
+              interesting dogs <br />
+              nearby.
+            </h1>
+            <button type="button" class="btn btn-dark btn-lg">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              <i class="fab fa-google-play"></i>
+              Download
+            </button>
+          </div>
+          <div class="col-lg-6 col-md-6 col-md-12">
+            <!----can add a carousel, with sliding dog images..-->
+            <img
+              class="phone"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+              style="padding-left: 90px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="f-box col-lg-4 col-sm-12">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="f-box col-lg-4 col-sm-12">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="f-box col-lg-4 col-sm-12">
+          <i class="icon fas fa-check fa-4x"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              I no longer have to sniff other dogs for love. I've found the
+              hottest Corgi on TinDog. Woof.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/dog-img.jpg"
+              alt="dog-profile"
+            />
+            <em><br />Pebbles, New York</em>
+          </div>
+
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              My dog used to be so lonely, but with TinDog's help, they've found
+              the love of their life. I think.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>A Plan for Every Dog's Needs</h2>
+      <p>Simple and affordable price plans for your and your dog.</p>
+
+      <div class="row">
+        <div
+          class="col-price col col-lg-4 col-md-6 col-sm-12"
+          style="padding-left: 10%"
+        >
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h3>Chihuahua</h3>
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-outline-primary btn-block">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-price col col-lg-4 col-md-6 col-sm-12"
+          style="padding-left: 10%"
+        >
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h3>Labrador</h3>
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-primary btn-block">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-price col col-lg-4 col-md-12 col-sm-12"
+          style="padding-left: 10%"
+        >
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h3>Mastiff</h3>
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button
+                type="button"
+                class="btn btn-primary btn-block btn-danger"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <div class="action container-fluid">
+        <h3
+          style="
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+            color: honeydew;
+            font-size: 3.5rem;
+          "
+        >
+          Find the True Love of Your Dog's <br />Life Today.
+        </h3>
+        <button type="button" class="btn btn-dark btn-lg">
+          <i class="fab fa-apple"></i> Download
+        </button>
+
+        <button type="button" class="btn btn-primary btn-lg">
+          <i class="fab fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <a class="icos" href="https://twitter.com/" target="_blank"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a
+        class="icos"
+        href="https://www.instagram.com/rohith_surya30/"
+        target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a class="icos" href="https://github.com/rohitsurya7393" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a class="icos" href="https://discord.gg/vkGAr5f8" target="_blank"
+        ><i class="fab fa-discord"></i
+      ></a>
+      <p>© Copyright 2018 PetPark</p>
+    </footer>
+  </body>
+</html>

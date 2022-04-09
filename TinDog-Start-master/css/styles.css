@@ -1,0 +1,111 @@
+#title {
+  background-color: rgb(226, 178, 240);
+}
+h1 {
+  font-family: cursive;
+}
+.navbar-brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+}
+.navabr {
+  padding-bottom: 100px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  z-index: -2;
+}
+.phone {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .phone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.btn btn-dark btn-lg {
+  padding-right: 10px;
+}
+
+.f-box {
+  text-align: center;
+  padding: 10px;
+}
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+.icon {
+  color: #e2b2e2;
+  margin-bottom: 2rem;
+}
+.icon:hover {
+  color: rgb(240, 154, 197);
+}
+
+#testimonials {
+  text-align: center;
+  background-color: rgb(226, 178, 240);
+  color: aliceblue;
+}
+h2 {
+  font-family: cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: rgb(226, 178, 240);
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 30px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.col-price {
+  padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  background-color: rgb(226, 178, 240);
+}
+#footer {
+  padding: 0 5%;
+  text-align: center;
+}
+.icos {
+  margin: 0 10px 0;
+}
+.icon:hover {
+  color: black;
+}
